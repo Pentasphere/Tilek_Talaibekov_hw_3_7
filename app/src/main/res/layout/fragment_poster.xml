@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PosterFragment">
+
+
+        <ImageView
+            android:id="@+id/img_poster"
+            android:background="@drawable/ic_poster"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+        <TextView
+            android:id="@+id/tv_play"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Now Playing"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:textSize="28sp"
+            android:layout_marginTop="50dp" />
+
+
+    <TextView
+        android:id="@+id/tv_talk"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Talk me down"
+        android:textColor="@color/white"
+        android:textStyle="italic"
+        android:textSize="44sp"
+        android:layout_marginTop="150dp"
+        android:layout_marginStart="20dp"/>
+
+    <TextView
+        android:id="@+id/tv_blue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Blue Neighborhood"
+        android:textColor="@color/white"
+        android:textStyle="italic"
+        android:textSize="24sp"
+        android:layout_marginTop="200dp"
+        android:layout_marginStart="20dp"/>
+
+
+</FrameLayout>
